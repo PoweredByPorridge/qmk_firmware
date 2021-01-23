@@ -8,16 +8,16 @@
 
 
 // Left-hand home row mods
-#define HOME_A LGUI_T(KC_A)
-#define HOME_S LALT_T(KC_S)
-#define HOME_D LSFT_T(KC_D)
-#define HOME_F LCTL_T(KC_F)
+#define GUI_A LGUI_T(KC_A)
+#define ALT_S LALT_T(KC_S)
+#define SFT_D LSFT_T(KC_D)
+#define CTL_F LCTL_T(KC_F)
 
 // Right-hand home row mods
-#define HOME_J RCTL_T(KC_J)
-#define HOME_K RSFT_T(KC_K)
-#define HOME_L LALT_T(KC_L)
-#define HOME_SCLN RGUI_T(KC_SCLN)
+#define CTL_J RCTL_T(KC_J)
+#define SFT_K RSFT_T(KC_K)
+#define ALT_L LALT_T(KC_L)
+#define GUI_SCLN RGUI_T(KC_SCLN)
 
 
 
@@ -66,9 +66,9 @@ void rbrax_reset(qk_tap_dance_state_t *state, void *user_data);
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT_planck_mit(KC_Q, KC_W, KC_E, KC_R, KC_T, KC_NO, KC_NO, KC_Y, KC_U, KC_I, KC_O, KC_P, \
-        HOME_A, HOME_S, HOME_D, HOME_F, KC_G, KC_NO, KC_NO, KC_H, HOME_J, HOME_K, HOME_L, HOME_SCLN, \
+	GUI_A, ALT_S, SFT_D, CTL_F, KC_G, KC_NO, KC_NO, KC_H, CTL_J, SFT_K, ALT_L, GUI_SCLN, \
         KC_Z, KC_X, KC_C, KC_V, KC_B, KC_NUBS, KC_SLSH, KC_N, KC_M, KC_COMM, KC_DOT, KC_ENT, \
-        LCTL_T(KC_ESC), KC_LALT, KC_LGUI, KC_LSFT, MO(1), LCTL_T(KC_SPC), MO(2), KC_RSFT, KC_QUOT, KC_LCTL, LALT_T(KC_TAB)),
+        KC_NO, KC_NO, KC_NO, KC_NO, MO(1),  KC_SPC, MO(2),  KC_NO, KC_NO, KC_NO, KC_NO, 
     [_LOWER] = LAYOUT_planck_mit(KC_EXLM, KC_AT, LSFT(KC_3), KC_DLR, KC_PERC, KC_NO, KC_NO, KC_CIRC, KC_AMPR, KC_ASTR, KC_DEL, KC_BSPC, \
         KC_F24, LALT(KC_F3), KC_NO, KC_NO, TD(L_BRAX), KC_NO, KC_NO, TD(R_BRAX), KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, \
         LCTL(KC_F12), LALT(KC_X), KC_NO, LSFT(KC_NUHS), KC_NUHS, KC_NUBS, KC_SLSH, KC_MINS, KC_EQL, KC_COMM, KC_DOT, KC_ENT, \
