@@ -27,7 +27,7 @@ AUDIO_ENABLE = no           # Audio output
 
 UNICODE_ENABLE = no        # Unicode
 
-AUTO_SHIFT_ENABLE = no
+AUTO_SHIFT_ENABLE = yes
 TAP_DANCE_ENABLE = yes       # tap dance. For examPle, q=q long q=cTrl
 
 COMBO_ENABLE = no          # Combos - q+w=Esc

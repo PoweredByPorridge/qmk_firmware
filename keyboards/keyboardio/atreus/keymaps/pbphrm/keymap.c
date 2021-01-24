@@ -171,4 +171,3 @@ qk_tap_dance_action_t tap_dance_actions[] = {
     [R_BRAX] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, rbrax_finished, rbrax_reset)
 };
 
-

@@ -1,18 +1,17 @@
 #pragma once
 
-// #define AUTO_SHIFT_TIMEOUT 250
-
-// #define NO_AUTO_SHIFT_SPECIAL
+#define AUTO_SHIFT_TIMEOUT 250
 
 #define NO_AUTO_SHIFT_NUMERIC 250
+// #define NO_AUTO_SHIFT_SPECIAL
 
-// #define TAPPING_TERM 225
-
-#define TAPPING_TERM_PER_KEY
-
+#define RETRO_SHIFT 
+// #define RETRO_SHIFT 500
 
 // Configure the global tapping term (default: 200ms)
 #define TAPPING_TERM 250
+
+#define TAPPING_TERM_PER_KEY
 
 // Prevent normal rollover on alphas from accidentally triggering mods.
 #define IGNORE_MOD_TAP_INTERRUPT
