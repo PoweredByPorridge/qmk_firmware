@@ -1,7 +1,6 @@
 #pragma once
 
-#define AUTO_SHIFT_TIMEOUT 225
-// After this period, a pressed key sends the shifted version.
+#define AUTO_SHIFT_TIMEOUT 250
 
 #define NO_AUTO_SHIFT_NUMERIC
 // #define NO_AUTO_SHIFT_SPECIAL
